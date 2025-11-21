@@ -1,6 +1,6 @@
 # SquatCoach AI
 
-this is an ai squat analyzer!!
+This is an ai squat analyzer!!
 
 SquatCoach AI is a computer-vision tool that analyzes squat form in real time using OpenCV + MediaPipe Pose in Python.
 It detects depth, counts reps, identifies bad reps, and flags knee valgus(when the knees cave and collapse in) using only a webcam.
