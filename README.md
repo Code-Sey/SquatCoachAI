@@ -8,7 +8,7 @@ It detects depth, counts reps, identifies bad reps, and flags knee valgus(when t
 This is the Fall 2025 Ignition Challenge submission for my AI-powered fitness project.
 
 
-Why Build this?
+**Why Build this?**
 
 Many beginners in the gym do not know proper form.
 As they add weight without proper form, their risk of injury skyrockets, mainly due to knee valgus
@@ -20,7 +20,7 @@ It analyzes your form live and tells you what your body is doing automatically
 
 
 
-Key Features
+**Key Features**
  1. Side Mode – Rep Counting + Depth Tracking
 
 Tracks hip–knee–ankle angles in real time
@@ -65,7 +65,7 @@ Mediapipe Pose: Landmark detections
 Numpy: angle math as well as calulations
 
 
-#How it Works
+**How it Works**
 
 1. Mediapipe tracks 33 pose landmarks
 
@@ -92,7 +92,7 @@ Numpy: angle math as well as calulations
 7.If knee crosses inward beyond a threshold, then valgus is detected
 
 
-#Target Audience
+**Target Audience**
 
 Beginners learning to squat,
 
