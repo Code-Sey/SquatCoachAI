@@ -8,7 +8,7 @@ It detects depth, counts reps, identifies bad reps, and flags knee valgus(when t
 This is the Fall 2025 Ignition Challenge submission for my AI-powered fitness project.
 
 
-**Why Build this?**
+**Why I Built this?**
 
 Many beginners in the gym do not know proper form.
 As they add weight without proper form, their risk of injury skyrockets, mainly due to knee valgus
@@ -21,7 +21,7 @@ It analyzes your form live and tells you what your body is doing automatically
 
 
 **Key Features**
- 1. Side Mode – Rep Counting + Depth Tracking
+ 1. Side Mode has Rep Counting + Depth Tracking
 
 Tracks hip–knee–ankle angles in real time
 
@@ -29,9 +29,9 @@ Recognizes squat stages (s1 → s2 → s3 → s1)
 
 Counts good reps
 
-Detects bad reps (shallow depth or incorrect sequence)
+Detects bad reps (with shallow depth or incorrect sequence)
 
- 2. Front Mode – Knee Valgus Detection
+ 2. Front Mode has Knee Valgus Detection
 
 Detects inward knee collapse using hip width + knee position
 
@@ -59,6 +59,7 @@ Valgus status
 
 Visual indicators (green means safe, red means warning)
 
+**Tech Stack used**
 Python: Holds all the core logic
 OpenCV: allows us to utilize Webcam and on screen drawing
 Mediapipe Pose: Landmark detections
