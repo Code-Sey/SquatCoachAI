@@ -27,6 +27,7 @@ Tracks hip–knee–ankle angles in real time
 
 Recognizes squat stages (s1 → s2 → s3 → s1)
 
+
 Counts good reps
 
 Detects bad reps (with shallow depth or incorrect sequence)
@@ -82,6 +83,7 @@ Numpy: angle math as well as calulations
 
   s3 = depth( bottom)
 
+  ![FSM Diagram](assets/Screenshot%202025-11-23%20173051.png?raw=true)
 5. When user returns to s1, system determines:
 
   Good rep if the movement passed s3 properly
