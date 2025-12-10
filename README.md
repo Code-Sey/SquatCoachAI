@@ -93,6 +93,7 @@ Numpy: angle math as well as calulations
 6. In front mode, knee x-position is compared to hip midline
 
 7.If knee crosses inward beyond a threshold, then valgus is detected
+![Valgus Demo](assets/Screenshot (8).png)
 
 
 **Target Audience**
