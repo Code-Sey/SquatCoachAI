@@ -26,6 +26,8 @@ It analyzes your form live and tells you what your body is doing automatically
 Tracks hip–knee–ankle angles in real time
 
 Recognizes squat stages (s1 → s2 → s3 → s1)
+![Side Mode demo](assets/Screenshot%20(6).png))
+
 
 
 Counts good reps
@@ -93,7 +95,7 @@ Numpy: angle math as well as calulations
 6. In front mode, knee x-position is compared to hip midline
 
 7.If knee crosses inward beyond a threshold, then valgus is detected
-![Valgus Demo](/assets/Screenshot%20(8).png))
+![Valgus Demo](/assets/Screenshot%20(8).png)
 
 
 **Target Audience**
